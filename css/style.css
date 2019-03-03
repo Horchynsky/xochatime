@@ -1,0 +1,467 @@
+/**************************************
+link & button
+**************************************/
+.white
+{
+	color:#fff !important;
+}
+h1.cta-title
+{
+	font-size: 43px;
+}
+h1
+{
+	font-size: 36px;
+}
+.menu{
+    font-size: 15pt;
+}
+
+  body {
+      margin: 0;
+      text-align: center;
+      background-color: rgb(172,206,198);
+    }
+    /*==================== pictures_left ====================*/
+.left1{
+  float: left;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.left4{
+  float: left;
+  margin: 0;
+  position: relative;
+  top: 100%;
+  left: 0px;
+  }
+  /*================= pictures_rigth =================*/
+.rigth3{
+  float: right;
+  margin: 0;
+  position:absolute;
+  top:0px;
+  right:0px
+}
+.rigth2{
+  float: right;
+  margin: 0;
+  position:relative; /* берем за основу родителя */
+  right:0px;
+}
+/*<!-- ========================   Slider   ============================ -->*/
+
+
+
+
+    .slider {
+      /* устанавливаем относительное позиционирование элементу */
+      position: relative;
+      display: inline-block;
+    }
+
+    .slider__items {
+      /* устанавливаем относительное позиционирование элементу */
+      position: relative;
+      /* устанавливаем элементу ширину, равную 100% */
+      width: 100%;
+      overflow: hidden;    }
+
+    .slider__item {
+      /* устанавливаем относительное позиционирование элементу */
+      position: relative;
+      /* отключаем по умолчанию отображение всех слайдов */
+      display: none;
+      /* устанавливаем элементу ширину, равную 100% */
+      width: 100%;
+      /* длительность анимации трансформации */
+      transition: transform 0.6s ease;
+      /* не показывать обратную сторону трансформируемого элемента */
+      backface-visibility: hidden;
+    }
+
+    .slider__item_active,
+    .slider__item_next,
+    .slider__item_prev {
+      /* отображаем слайд, если он имеет один из этих классов */
+      display: block;
+    }
+
+    .slider__item_next,
+    .slider__item_prev {
+      /* устанавливаем абсолютное позиционирование для элемента, на который будет сменяться слайд (на время трансформации) */
+      position: absolute;
+      /* устанавливаем положение элемента, т.е. координату top */
+      top: 0;
+    }
+
+    .slider__item_next.slider__item_left,
+    .slider__item_prev.slider__item_right {
+      /* сдвигаем элемент на 0 по горизонтали */
+      transform: translateX(0);
+    }
+
+    .slider__item_next,
+    .slider__item_right.slider__item_active {
+      /* сдвигаем элемент на 100% по горизонтали */
+      transform: translateX(100%);
+    }
+
+    .slider__item_prev,
+    .slider__item_left.slider__item_active {
+      /* сдвигаем элемент на -100% по горизонтали */
+      transform: translateX(-100%);
+    }
+
+    /* элементы управления (назад и вперёд) слайдером */
+
+    .slider__control {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15%;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: .9;
+    }
+
+    .slider__control_prev {
+      left: 0;
+    }
+
+    .slider__control_next {
+      right: 0;
+    }
+
+    .slider__control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider__control_prev::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_next::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    /* индикаторы слайдера */
+
+    .slider__indicators {
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+      left: 0;
+      z-index: 15;
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
+      margin-right: 15%;
+      margin-left: 15%;
+      list-style: none;
+    }
+
+    .slider__indicator {
+      position: relative;
+      flex: 0 1 auto;
+      width: 30px;
+      height: 3px;
+      margin-right: 3px;
+      margin-left: 3px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 6px;
+    }
+
+    .slider__indicator::before {
+      position: absolute;
+      top: -10px;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      height: 10px;
+      content: "";
+    }
+
+    .slider__indicator::after {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      height: 10px;
+      content: "";
+    }
+
+    .slider__indicator_active {
+      background-color: #fff;
+    }
+
+  .slider__item  img {
+      display: inline-block;
+      height: auto;
+      max-width: 100%;
+    }
+
+/**************************************
+Header
+**************************************/
+.overlay{
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    width: 25%;
+    z-index: 10;
+    border-radius: 100%; /* Радиус скругления */
+    border: 15px solid rgba(244,0,161,0.25); /* Параметры рамки */
+    box-shadow: 0 0 10px #666; /* Параметры тени */ 
+}
+/*=================*/
+.overlay {
+visibility: hidden;
+}
+.overlay {
+animation-name: myopacity;
+-webkit-animation-name: myopacity; 
+animation-duration: 1.7s; 
+-webkit-animation-duration: 1.7s;
+animation-timing-function: ease-out; 
+-webkit-animation-timing-function: ease-out; 
+visibility: visible !important; 
+}
+@keyframes myopacity{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}100%{opacity:1}}
+@-webkit-keyframes myopacity{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}100%{opacity:1}}
+/*=================*/
+.text{
+    width: 50%;
+    margin-left: 40%;
+}
+
+.header {
+	min-height: inherit;
+	margin: 0px;
+    height: 150px;
+    background-color: rgb(172,206,198);
+}
+
+.footer {
+    background-color: rgb(172,206,198);
+}
+.footer h3 {
+    color: black;
+    padding-bottom: 30px;
+}
+.footer_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer_social ul li {
+    margin: 2px;
+    display: inline-block;
+}
+.footer_social ul li a {
+    background: #2e3537 none repeat scroll 0 0;
+    border: 1px solid #2e3537;
+    box-shadow: 0 0 0 7px transparent;
+    color: #aaa;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 21px;
+    padding: 9px 13px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+/**************************************
+cta
+**************************************/
+/** media queries**/
+/*===================== копм'ютери =================*/
+@media (min-width: 480px) and (max-width: 1023px) {
+    .text{
+        margin-left: 40%;
+    }
+
+    .img-sec, .fig-caption {
+    width: 100%;
+    float: left;
+}
+.fig-caption {
+    padding: 56px 20px 20px;
+}
+}
+/*=================== Планшети ==========================*/
+@media (min-width: 451px) and (max-width: 768px) {
+    .overlay{
+        width: 27%;
+        border: 10px solid rgba(244,0,161,0.25);
+    }
+    h1{
+        font-size: 15pt;
+        margin: 0;
+    }
+    .header{
+        height: 100px;
+    }
+    .text{
+        margin-left: 40%;
+    }
+.filter {
+    padding: 5px 18px;
+    margin-bottom: 3px;
+}
+.wd75
+{
+    width: 100%;
+}
+.fig-caption {
+    padding: 56px 20px 20px;
+}
+}
+/*==================== Телефони ==================*/
+@media (min-width: 301px) and (max-width: 450px) {
+     .overlay{
+        width: 50%;
+        margin-left: 15%;
+    }
+    .header{
+        height: 250px;
+    }
+    .text{
+        margin-left: 25%;
+    }
+    h1{
+        font-size: 12pt;
+        margin-top: 150px;
+        margin-left: 0;
+    }
+    .menu{
+        font-size: 12pt;
+    }
+.filter {
+    padding: 3px 14px;
+    margin-bottom: 3px;
+}
+.jumbotron
+{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.fig-caption {
+    padding: 13px 20px 0px;
+}
+.team-social li {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.fig-caption h3 {
+    font-size: 19px;
+    font-family: 'Josefin Slab', serif;
+}
+.wd75
+{
+    width: 100%;
+}
+.service-box .service-text h3
+{
+    padding-top: 15px;
+}
+.jumbotron h1.small {
+    font-size: 44px;
+}
+h1.cta-title {
+    font-size: 30px;
+}
+p.cta-sub-title {
+    font-size: 20px;
+}
+.button-medium {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+}
+.jumbotron
+{
+    padding: 90px 0px 0px 20px !important;
+}
+}
+.footer_copyright a
+{
+    text-decoration: none;
+}
+@media (min-width: 100px) and (max-width: 300px) {
+.filter {
+    padding: 3px 14px;
+    margin-bottom: 3px;
+}
+.img-sec, .fig-caption {
+    width: 100%;
+    float: left;
+}
+.fig-caption {
+    padding: 56px 20px 20px;
+}
+.jumbotron h1.small {
+    font-size: 44px;
+}
+h1.cta-title {
+    font-size: 30px;
+}
+p.cta-sub-title {
+    font-size: 20px;
+}
+.button-medium {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+}
+.jumbotron
+{
+    padding: 90px 0px 0px 20px !important;
+}
+.service-box .service-text h3 {
+    padding-top: 15px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
+    text-align: center;
+}
+}
+@media (min-width: 300px) and (max-width: 768px) {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
+    text-align: center;
+    border: 0px;
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+    border: 0px;
+}
+}
+/**************************************
+form element
+**************************************/

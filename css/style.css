@@ -3,15 +3,15 @@ link & button
 **************************************/
 .white
 {
-	color:#fff !important;
+  color:#fff !important;
 }
 h1.cta-title
 {
-	font-size: 43px;
+  font-size: 43px;
 }
 h1
 {
-	font-size: 36px;
+  font-size: 36px;
 }
 .menu{
     font-size: 15pt;
@@ -258,8 +258,8 @@ visibility: visible !important;
 }
 
 .header {
-	min-height: inherit;
-	margin: 0px;
+  min-height: inherit;
+  margin: 0px;
     height: 150px;
     background-color: rgb(172,206,198);
 }
@@ -360,6 +360,39 @@ cta
     .menu{
         font-size: 12pt;
     }
+
+
+    /*==================== pictures_left ====================*/
+.left1{
+  float: left;
+  margin: -15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.left4{
+  float: left;
+  margin: -15px;
+  position: relative;
+  top: 100%;
+  left: 0px;
+  }
+  /*================= pictures_rigth =================*/
+.rigth3{
+  float: right;
+  margin: -15px;
+  position:absolute;
+  top:0px;
+  right:0px
+}
+.rigth2{
+  float: right;
+  margin: -15px;
+  position:relative; 
+  right:0px;
+}
+
+
 .filter {
     padding: 3px 14px;
     margin-bottom: 3px;

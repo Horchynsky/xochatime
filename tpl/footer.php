@@ -6,7 +6,7 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="txt13 m-b-33">
-						Contact Us
+						Зв'яжіться з нами
 					</h4>
 
 					<ul class="m-b-70">
@@ -28,16 +28,16 @@
 
 					<!-- - -->
 					<h4 class="txt13 m-b-32">
-						Opening Times
+						Ми відкриті
 					</h4>
 
 					<ul>
 						<li class="txt14">
-							10:00 AM – 12:00 PM
+							10:00 – 00:00 
 						</li>
 
 						<li class="txt14">
-							Every Day
+							Кожного дня
 						</li>
 					</ul>
 				</div>
@@ -45,7 +45,7 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="txt13 m-b-33">
-						Latest Reviews
+						Останні відгуки
 					</h4>
 
 					<div class="m-b-25">
@@ -53,18 +53,18 @@
 							<i class="fa fa-star" aria-hidden="true"></i>
 						</span>
 						<a href="#" class="txt15">
-							@colorlib
+							Lunar Orange
 						</a>
 
 						<p class="txt14 m-b-18">
-							Activello is a good option. It has a slider built into that displays the featured image in the slider.
+							Приємний інтер'єр, затишно і дуже смачно. Правда, не одразу офіціантка підійшла (сіли на першому поверсі справа за стіною, розумію, що погано було видно), але приготували все досить швидко. 4 зірки, а не 5, бо не було тоді десертів взагалі, а дуже хотілося скуштувати імбирно-морквяний торт. Що ж, буде ще привід до вас завітати пізніше
 							<a href="#" class="txt15">
-								https://buff.ly/2zaSfAQ
+								https://goo.gl/maps/3v1R1sVxbeL5saNi8
 							</a>
 						</p>
 
 						<span class="txt16">
-							21 Dec 2017
+							19.07.2019
 						</span>
 					</div>
 
@@ -73,18 +73,18 @@
 							<i class="fa fa-star" aria-hidden="true"></i>
 						</span>
 						<a href="#" class="txt15">
-							@colorlib
+							Mykola Demediuk
 						</a>
 
 						<p class="txt14 m-b-18">
-							Activello is a good option. It has a slider built into that displays
+							Дуже сподобалась гречана локшина з тофу! Смачно та ситно! Смачні теплі салати з куркою та креветкою а також роли! Обслуговування на вистоті, швидко та якісно! Смачно поїли
 							<a href="#" class="txt15">
-								https://buff.ly/2zaSfAQ
+								https://goo.gl/maps/2hLz94M7jhgbiQfw9
 							</a>
 						</p>
 
 						<span class="txt16">
-							21 Dec 2017
+							12.07.2019
 						</span>
 					</div>
 				</div>
@@ -92,59 +92,59 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="txt13 m-b-38">
-						Gallery
+						Галерея
 					</h4>
 
 					<!-- Gallery footer -->
-					<div class="wrap-gallery-footer flex-w">
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
+<div class="wrap-gallery-footer flex-w">
+				<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/boni.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/boni.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/salads/crevetka.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/salads/crevetka.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/soups/ramen.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/soups/ramen.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-04.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-04.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/WOK/ramen_tay.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/WOK/ramen_tay.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/spring.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/spring.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/27.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/27.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/24.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/24.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-08.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-08.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/Appetizers/kyng.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/Appetizers/kyng.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/fila_los.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/fila_los.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/Appetizers/tataki.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/Appetizers/tataki.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/15.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/15.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-12.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-12.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/soups/tom.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/soups/tom.jpg" alt="GALLERY">
 						</a>
-					</div>
+			</div>
 
 				</div>
 			</div>
@@ -173,27 +173,6 @@
 			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
 		</span>
 	</div>
-
-	<!-- Container Selection1 -->
-	<div id="dropDownSelect1"></div>
-
-	<!-- Modal Video 01-->
-	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
-
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
-
-			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
-				<div class="video-mo-01">
-					<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -210,10 +189,6 @@
 	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/slick-custom.js"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
-	<script type="text/javascript">
-        $('.parallax100').parallax100();
-	</script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
@@ -221,5 +196,9 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
+
+
+
+	
 </body>
 </html>

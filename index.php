@@ -3,10 +3,10 @@
 	<section class="section-slide">
 		<div class="wrap-slick1">
 			<div class="slick1">
-				<div class="item-slick1 item1-slick1" style="background-image: url(images/24.jpg);">
+				<div class="item-slick1 item1-slick1" style="background-image: url(https://horchynsky.github.io/help/24.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
-							Welcome to
+							Ласкаво просимо до
 						</span>
 
 						<h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
@@ -15,17 +15,18 @@
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
 							<!-- Button1 -->
-							<a href="menu.html" class="btn1 flex-c-m size1 txt3 trans-0-4">
-								Look Menu
+							<a href="dostavka.php" class="btn1 flex-c-m size1 txt3 trans-0-4">
+								Доставка
+
 							</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="item-slick1 item2-slick1" style="background-image: url(images/5.jpg);">
+				<div class="item-slick1 item2-slick1" style="background-image: url(https://horchynsky.github.io/help/WOK/pad_tay.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rollIn">
-							Welcome to
+							Ласкаво просимо до 
 						</span>
 
 						<h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
@@ -34,17 +35,17 @@
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="slideInUp">
 							<!-- Button1 -->
-							<a href="menu.html" class="btn1 flex-c-m size1 txt3 trans-0-4">
-								Look Menu
+							<a href="dostavka.php" class="btn1 flex-c-m size1 txt3 trans-0-4">
+								Доставка
 							</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="item-slick1 item3-slick1" style="background-image: url(images/27.jpg);">
+				<div class="item-slick1 item3-slick1" style="background-image: url(https://horchynsky.github.io/help/27.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-							Welcome to
+							Ласкаво просимо до 
 						</span>
 
 						<h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
@@ -53,8 +54,8 @@
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="rotateIn">
 							<!-- Button1 -->
-							<a href="menu.html" class="btn1 flex-c-m size1 txt3 trans-0-4">
-								Look Menu
+							<a href="dostavka.php" class="btn1 flex-c-m size1 txt3 trans-0-4">
+								Доставка
 							</a>
 						</div>
 					</div>
@@ -73,19 +74,19 @@
 				<div class="col-md-6 p-t-45 p-b-30">
 					<div class="wrap-text-welcome t-center">
 						<span class="tit2 t-center">
-							Panasian Restaurant
+							Ресторан Паназіатської кухні
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Welcome
+							Запрошує вас
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+							У серці Львова, на вулиці Братів Рогатинців 9, турботлива команда готує для Вас страви паназіатської кухні. Для комфортного відпочинку ми пропонуємо гостям 2 зали на першому поверсі та невеличкий лаундж зал на другому. Наше меню поєднало страви японської, в’єтнамської, тайської та китайської кухонь.
 						</p>
 
-						<a href="about.html" class="txt4">
-							Our Story
+						<a href="about.php" class="txt4">
+							Наша історія
 							<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 						</a>
 					</div>
@@ -93,7 +94,7 @@
 
 				<div class="col-md-6 p-b-30">
 					<div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/hot.jpg" alt="IMG-OUR">
+						<img src="https://horchynsky.github.io/help/hot.jpg" alt="IMG-OUR">
 					</div>
 				</div>
 			</div>
@@ -102,9 +103,9 @@
 
 	<!-- Intro -->
 	<section class="section-intro">
-		<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(images/bg.jpg);">
+		<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(https://horchynsky.github.io/help/bg.jpg);">
 			<span class="tit2 p-l-15 p-r-15">
-				Discover
+				Пориньте у 
 			</span>
 
 			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
@@ -119,22 +120,17 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/kamin.jpg" alt="IMG-INTRO"></a>
+								<a href="#"><img src="https://horchynsky.github.io/help/kamin.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
 								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-									Romantic Restaurant
+									Атмосферний заклад 
 								</h4></a>
 
 								<p class="m-b-20">
-									Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+									Як для великих шумних компаній, так і для закоханих та дітей
 								</p>
-
-								<a href="#" class="txt4">
-									Learn More
-									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
@@ -143,22 +139,17 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/19.jpg" alt="IMG-INTRO"></a>
+								<a href="#"><img src="https://horchynsky.github.io/help/19.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
 								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-									Delicious Food
+									Смачні страви
 								</h4></a>
 
 								<p class="m-b-20">
-									Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna
+									Страви на будь-який смак, які здивують кожного 
 								</p>
-
-								<a href="#" class="txt4">
-									Learn More
-									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
@@ -167,126 +158,23 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/blogi.jpg" alt="IMG-INTRO"></a>
+								<a href="#"><img src="https://horchynsky.github.io/help/blogi.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
 								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-									Drinks You Love
+									Смачні коктелі від барменів Xocha Time
 								</h4></a>
 
 								<p class="m-b-20">
-									Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
+									Бухуча від барменів хучі для поціновувачів хороших напоїв
 								</p>
-
-								<a href="#" class="txt4">
-									Learn More
-									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
 
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<!-- Our menu -->
-	<section class="section-ourmenu bg2-pattern p-t-115 p-b-120">
-		<div class="container">
-			<div class="title-section-ourmenu t-center m-b-22">
-				<span class="tit2 t-center">
-					Discover
-				</span>
-
-				<h3 class="tit5 t-center m-t-2">
-					Our Menu
-				</h3>
-			</div>
-
-			<div class="row">
-				<div class="col-md-8">
-					<div class="row">
-						<div class="col-sm-6">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/soups/ramen.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="menu.php #soups" class="btn2 flex-c-m txt5 ab-c-m size4">
-									Soups
-								</a>
-							</div>
-						</div>
-
-						<div class="col-sm-6">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/salads/grib.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="menu.php #salads" class="btn2 flex-c-m txt5 ab-c-m size5">
-									Salads
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/rolls/dragons.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="menu.php #rolls" class="btn2 flex-c-m txt5 ab-c-m size6">
-									Rolls
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="row">
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/WOK/pad_tay.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="menu.php #WOK" class="btn2 flex-c-m txt5 ab-c-m size7">
-									WOK
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/Appetizers/shri.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="menu.php #Appetizers" class="btn2 flex-c-m txt5 ab-c-m size8">
-									Appetizers
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/Desserts/cheese.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="menu.php #Desserts" class="btn2 flex-c-m txt5 ab-c-m size9">
-									Dessert
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
 		</div>
 	</section>
 
@@ -295,10 +183,9 @@
 	<section class="section-event">
 		<div class="wrap-slick2">
 			<div class="slick2">
-				<div class="item-slick2 item1-slick2" style="background-image: url(images/LVIV.jpg);">
+				<div class="item-slick2 item1-slick2" style="background-image: url(https://horchynsky.github.io/help/rolls/15.jpg);">
 					<div class="wrap-content-slide2 p-t-115 p-b-208">
 						<div class="container">
-							<!-- - -->
 							<div class="title-event t-center m-b-52">
 								<span class="tit2 p-l-15 p-r-15">
 									Upcomming
@@ -309,21 +196,18 @@
 								</h3>
 							</div>
 
-							<!-- Block2 -->
 							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="zoomIn">
-								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(images/zal2.jpg);">
+								<a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(https://horchynsky.github.io/help/blogi.jpg);">
 									<div class="time-event size10 txt6 effect1">
 										<span class="txt-effect1 flex-c-m t-center">
-											08:00 PM Tuesday - 21 November 2018
+											10:00 PM Tuesday - 1 November 2019
 										</span>
 									</div>
 								</a>
 
-								<!-- Text block2 -->
 								<div class="wrap-text-blo2 flex-col-c-m p-l-40 p-r-40 p-t-45 p-b-30">
 									<h4 class="tit7 t-center m-b-10">
-										Гастро вечір з дегустацією саке
+										Уже зовсім скоро НОВЕ МЕНЮ
 									</h4>
 
 									<p class="t-center">
@@ -333,7 +217,7 @@
 									<div class="flex-sa-m flex-w w-full m-t-40">
 										<div class="size11 flex-col-c-m">
 											<span class="dis-block t-center txt7 m-b-2 days">
-												25
+												4
 											</span>
 
 											<span class="dis-block t-center txt8">
@@ -383,7 +267,6 @@
 				</div>
 
 				
-			<!-- <div class="wrap-slick2-dots"></div> -->
 		</div>
 	</section>
 
@@ -394,11 +277,11 @@
 				<div class="col-lg-6 p-b-30">
 					<div class="t-center">
 						<span class="tit2 t-center">
-							Reservation
+							Зарезервуй столик
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-2">
-							Book table
+							на сьогодні
 						</h3>
 					</div>
 
@@ -407,7 +290,7 @@
 							<div class="col-md-6">
 								<!-- Date -->
 								<span class="txt9">
-									Date
+									Дата
 								</span>
 
 								<div class="wrap-inputdate pos-relative txt10 size12 bo2 bo-rad-10 m-t-3 m-b-23">
@@ -417,7 +300,7 @@
 
 								<!-- Time -->
 								<span class="txt9">
-									Time
+									Час
 								</span>
 
 								<div class="wrap-inputtime size12 bo2 bo-rad-10 m-t-3 m-b-23">
@@ -454,24 +337,24 @@
 
 								<!-- People -->
 								<span class="txt9">
-									People
+									Кількість осіб
 								</span>
 
 								<div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">
 									<!-- Select2 -->
 									<select class="selection-1" name="people">
-										<option>1 person</option>
-										<option>2 people</option>
-										<option>3 people</option>
-										<option>4 people</option>
-										<option>5 people</option>
-										<option>6 people</option>
-										<option>7 people</option>
-										<option>8 people</option>
-										<option>9 people</option>
-										<option>10 people</option>
-										<option>11 people</option>
-										<option>12 people</option>
+										<option>1 людина</option>
+										<option>2 людей</option>
+										<option>3 людей</option>
+										<option>4 людей</option>
+										<option>5 людей</option>
+										<option>6 людей</option>
+										<option>7 людей</option>
+										<option>8 людей</option>
+										<option>9 людей</option>
+										<option>10 людей</option>
+										<option>11 людей</option>
+										<option>12 людей</option>
 									</select>
 								</div>
 							</div>
@@ -479,7 +362,7 @@
 							<div class="col-md-6">
 								<!-- Name -->
 								<span class="txt9">
-									Name
+									Ім'я
 								</span>
 
 								<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
@@ -488,7 +371,7 @@
 
 								<!-- Phone -->
 								<span class="txt9">
-									Phone
+									Телефон
 								</span>
 
 								<div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
@@ -509,7 +392,7 @@
 						<div class="wrap-btn-booking flex-c-m m-t-6">
 							<!-- Button3 -->
 							<button type="submit" class="btn3 flex-c-m size13 txt11 trans-0-4">
-								Book Table
+								Зарезервувати столик
 							</button>
 						</div>
 					</form>
@@ -517,29 +400,11 @@
 
 				<div class="col-lg-6 p-b-30 p-t-18">
 					<div class="wrap-pic-booking size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/zal.jpg" alt="IMG-OUR">
+						<img src="https://horchynsky.github.io/help/zal.jpg" alt="IMG-OUR">
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- Sign up -->
-	<div class="section-signup bg1-pattern p-t-85 p-b-85">
-		<form class="flex-c-m flex-w flex-col-c-m-lg p-l-5 p-r-5">
-			<span class="txt5 m-10">
-				Specials Sign up
-			</span>
 
-			<div class="wrap-input-signup size17 bo2 bo-rad-10 bgwhite pos-relative txt10 m-10">
-				<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email-address" placeholder="Email Adrress">
-				<i class="fa fa-envelope ab-r-m m-r-18" aria-hidden="true"></i>
-			</div>
-
-			<!-- Button3 -->
-			<button type="submit" class="btn3 flex-c-m size18 txt11 trans-0-4 m-10">
-				Sign-up
-			</button>
-		</form>
-	</div>
 
 <?php require 'tpl/footer.php'; ?>

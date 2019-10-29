@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-	<title>Home</title>
+	<title>Xocha Time</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+	<link rel="icon" type="image/png" href="images/fav.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -29,7 +29,14 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="send.php">
 <!--===============================================================================================-->
+	<link href="//fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
+
 </head>
 <body class="animsition">
 
@@ -42,7 +49,7 @@
 					<!-- Logo -->
 					<div class="logo">
 						<a href="index.php">
-							<img src="images/xocha.png" alt="IMG-LOGO" data-logofixed="images/xocha.png">
+							<img src="https://horchynsky.github.io/help/xocha.png" alt="IMG-LOGO" data-logofixed="https://horchynsky.github.io/help/xocha.png" >
 						</a>
 					</div>
 
@@ -51,40 +58,33 @@
 						<nav class="menu">
 							<ul class="main_menu">
 								<li>
-									<a href="index.php">Home</a>
+									<a href="index.php">Головна</a>
 								</li>
 
 								<li>
-									<a href="menu.php">Menu</a>
+									<a href="ua.pdf">Меню</a>
 								</li>
 
 								<li>
-									<a href="reservation.php">Reservation</a>
+									<a href="gallery.php">Галерея</a>
 								</li>
 
 								<li>
-									<a href="gallery.php">Gallery</a>
+									<a href="about.php">Про нас</a>
 								</li>
-
 								<li>
-									<a href="about.php">About</a>
+									<a href="contact.php">Зв'яжіться з нами</a>
 								</li>
-
 								<li>
-									<a href="blog.php">Blog</a>
-								</li>
-
-								<li>
-									<a href="contact.php">Contact</a>
+									<a href="dostavka.php">Доставка</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
+					
 
 					<!-- Social -->
 					<div class="social flex-w flex-l-m p-r-20">
-						<a href="https://www.instagram.com/xocha.time/?hl=ru"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a href="https://www.facebook.com/xocha.time/?ref=page_internal"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
 
 						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
 					</div>
@@ -101,34 +101,26 @@
 		<!-- - -->
 		<ul class="menu-sidebar p-t-95 p-b-70">
 			<li class="t-center m-b-13">
-				<a href="index.php" class="txt19">Home</a>
+				<a href="index.php" class="txt19">Головна</a>
 			</li>
 
 			<li class="t-center m-b-13">
-				<a href="menu.php" class="txt19">Menu</a>
+				<a href="ua.pdf" class="txt19">Меню</a>
 			</li>
 
 			<li class="t-center m-b-13">
-				<a href="gallery.php" class="txt19">Gallery</a>
+				<a href="gallery.php" class="txt19">Галерея</a>
 			</li>
 
 			<li class="t-center m-b-13">
-				<a href="about.php" class="txt19">About</a>
-			</li>
-
-			<li class="t-center m-b-13">
-				<a href="blog.php" class="txt19">Blog</a>
+				<a href="about.php" class="txt19">Про нас </a>
 			</li>
 
 			<li class="t-center m-b-33">
-				<a href="contact.php" class="txt19">Contact</a>
+				<a href="contact.php" class="txt19">Зв'яжіться з нами</a>
 			</li>
-
-			<li class="t-center">
-				<!-- Button3 -->
-				<a href="reservation.php" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
-					Reservation
-				</a>
+			<li class="t-center m-b-33">
+				<a href="dostavka.php" class="txt19">Доставка</a>
 			</li>
 		</ul>
 
@@ -136,46 +128,58 @@
 		<div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
 			<!-- - -->
 			<h4 class="txt20 m-b-33">
-				Gallery
+				Галерея
 			</h4>
 
 			<!-- Gallery -->
 			<div class="wrap-gallery-sidebar flex-w">
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
-				</a>
+				<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/boni.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/boni.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/salads/crevetka.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/salads/crevetka.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/soups/ramen.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/soups/ramen.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/WOK/ramen_tay.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/WOK/ramen_tay.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/spring.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/spring.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/27.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/27.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/24.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/24.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/Appetizers/kyng.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/Appetizers/kyng.jpg" alt="GALLERY">
+						</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
-				</a>
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/fila_los.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/fila_los.jpg" alt="GALLERY">
+						</a>
+
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/Appetizers/tataki.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/Appetizers/tataki.jpg" alt="GALLERY">
+						</a>
+
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/rolls/15.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/rolls/15.jpg" alt="GALLERY">
+						</a>
+
+						<a class="item-gallery-footer wrap-pic-w" href="https://horchynsky.github.io/help/soups/tom.jpg" data-lightbox="gallery-footer">
+							<img src="https://horchynsky.github.io/help/soups/tom.jpg" alt="GALLERY">
+						</a>
 			</div>
 		</div>
-	</aside>
+</aside>
